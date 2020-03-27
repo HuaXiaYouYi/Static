@@ -4,4 +4,70 @@
 2020-03-27
 */
 
-/**/
+/*导航栏间距*/
+.jinsom-menu>ul>li {
+	padding: 0 20px;
+}
+
+/*导航栏底部加阴影效果*/
+.jinsom-header {
+	box-shadow: 0 1px 2px rgba(131, 131, 131, 0.42);
+}
+
+/*搜索界面*/
+body {
+	overflow: auto !important;
+}
+
+.jinsom-pop-search.show {
+	top: 50px;
+	z-index: 1000;
+	background-color: #fffffff4;
+	transition: all .2s;
+}
+
+.jinsom-pop-search-container {
+	margin-top: -60px;
+}
+
+.jinsom-pop-search-content input {
+	border: 1px solid #f50;
+}
+
+.jinsom-pop-search-content span {
+	background-color: #f50;
+	color: #fff;
+}
+
+/*首页二级导航横变竖*/
+/**
+.jinsom-index-menu {
+	width: 8%;
+	position: absolute;
+	top: 50px;
+	left: -115px;
+}
+
+.jinsom-index-menu-list {
+	display: block;
+	position: fixed;
+	background: #fff;
+	top: 63px;
+	width: 100px;
+	border-radius: 6px;
+}
+**/
+
+/*未登入时隐藏登录工具*/
+.jinsom-main-content.sns.clear .jinsom-widget-user-login {
+	display: none;
+}
+
+.logged-in .jinsom-main-content.sns.clear .jinsom-widget-user-login {
+	display: block;
+}
+
+/*底部模块标题*/
+.jinsom-footer-top>li>.title {
+	color: #333;
+}
