@@ -4,4 +4,20 @@
 2020-03-27
 */
 
-/**/
+/*登入页右上角三点改注册*/
+.jinsom-login-form .right a {
+	z-index: 10;
+	text-indent: -9999px;
+}
+
+.jinsom-login-form .right:after {
+	content: "注册";
+	position: absolute;
+	right: 10px;
+	z-index: 9;
+}
+
+/*论坛加号左移*/
+.jinsom-bbs-publish-icon {
+	left: 80%;
+}
