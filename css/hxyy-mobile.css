@@ -21,3 +21,22 @@
 .jinsom-bbs-publish-icon {
 	left: 80%;
 }
+
+/*昵称旁边便签看过去居中*/
+.jinsom-mark {
+    padding: 0.2vw 1.6vw 0.4vw 1.6vw;
+    vertical-align: 0.6vw;
+}
+
+/*关注*/
+.navbar .right .follow {
+    background-color: #88ada6;
+    border: #ffffff 1px solid;
+}
+
+/*已关注*/
+.navbar .right .follow.has {
+    background-color: #88ada6;
+    color: #ffffff;
+	width: 120%;
+}
