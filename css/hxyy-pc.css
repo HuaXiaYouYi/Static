@@ -71,3 +71,41 @@ body {
 .jinsom-footer-top>li>.title {
 	color: #444;
 }
+
+/*头像*/
+.jinsom-post-user-info-avatar img.avatar {
+	height: 50px;
+	width: 50px;
+}
+
+/*头像旁昵称*/
+.jinsom-post-user-info-name {
+	margin: 5px 0 0 50px;
+}
+
+/*头像旁昵称位置看过去居中*/
+.jinsom-post-user-info {
+	font-size: 16px;
+}
+
+.jinsom-post-user-info-name>a {
+	font-size: 18px;
+	/*font-weight: 700;*/
+	vertical-align: -1.6px;
+}
+
+/*昵称旁边便签看过去居中*/
+.jinsom-mark {
+    padding: 0px 5px 1px 5px;
+}
+
+/*右侧卡片用户呢称看过去居中*/
+.jinsom-sidebar-user-info .info .name {
+    font-size: 18px;
+	vertical-align: -1.6px;
+}
+
+/*个人页面用户呢称看过去居中*/
+.jinsom-member-username h1 {
+    vertical-align: -1.5px;
+}
