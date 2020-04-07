@@ -109,3 +109,23 @@ body {
 .jinsom-member-username h1 {
     vertical-align: -1.5px;
 }
+
+/*导航栏宽度55px*/
+/*logo*/
+.jinsom-header-content .logo a {
+    height: 55px;
+}
+/*menu*/
+.jinsom-menu>ul>li {
+    line-height: 55px;
+    height: 55px;
+}
+/*右侧*/
+.jinsom-header-right>li {
+    height: 55px;
+    line-height: 55px;
+}
+/*消息提醒框*/
+.jinsom-notice ul {
+    top: 55px;
+}
