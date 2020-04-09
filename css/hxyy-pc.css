@@ -129,3 +129,11 @@ body {
 .jinsom-notice ul {
     top: 55px;
 }
+
+/*导航栏注册按钮*/
+.jinsom-header-right .reg {
+    border: #88ada6 1px solid;
+    height: 23px;
+    line-height: 23px;
+    width: 48px;
+}
