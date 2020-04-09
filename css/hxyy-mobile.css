@@ -40,3 +40,8 @@
 	color: #ffffff;
 	width: 120%;
 }
+
+/*用户个人页面顶部昵称*/
+.navbar .center font {
+    color: #fff !important;
+}
