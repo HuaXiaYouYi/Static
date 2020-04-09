@@ -125,6 +125,14 @@ body {
     height: 55px;
     line-height: 55px;
 }
+/*登录按钮*/
+.jinsom-header-right .login {
+    margin-top: 15px;
+}
+/*注册按钮*/
+.jinsom-header-right .reg {
+    margin-top: 15px;
+}
 /*消息提醒框*/
 .jinsom-notice ul {
     top: 55px;
