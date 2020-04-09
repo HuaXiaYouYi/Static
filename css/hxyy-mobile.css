@@ -22,10 +22,12 @@
 	left: 80%;
 }
 
-/*昵称旁边便签看过去居中*/
+/*昵称旁边标签看过去居中*/
 .jinsom-mark {
-	padding: 0.2vw 1.6vw 0.4vw 1.6vw;
+	padding: 0.4vw 1.2vw;
 	vertical-align: 0.6vw;
+	font-size: 2.5vw;
+	border-radius: 0.2vw;
 }
 
 /*关注*/
