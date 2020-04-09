@@ -24,8 +24,8 @@
 
 /*昵称旁边标签看过去居中*/
 .jinsom-mark {
-	padding: 0.4vw 1.2vw;
-	vertical-align: 0.6vw;
+	padding: 0.3vw 1.2vw;
+	vertical-align: 0.5vw;
 	font-size: 2.5vw;
 	border-radius: 0.2vw;
 }
