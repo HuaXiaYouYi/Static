@@ -110,3 +110,8 @@
 .jinsom-publish-type-form .bottom li span {
     border-radius: 10vw;
 }
+
+/*幻灯背景圆角*/
+.owl-carousel .owl-stage-outer {
+    border-radius: 0vw;
+}
