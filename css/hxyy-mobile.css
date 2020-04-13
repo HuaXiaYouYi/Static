@@ -49,3 +49,64 @@
 .navbar .center font {
 	color: #fff !important;
 }
+
+/*加号发表弹出页面*/
+.jinsom-publish-type-form {
+	bottom: 20px;
+	height: auto;
+	top: auto;
+	background: none;
+	text-align: center;
+}
+.jinsom-publish-type-form .bottom {
+	background: #fff;
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 0 0 10px 10px;
+	position: initial;
+}
+.jinsom-publish-type-form .ad {
+	padding: 10px 0;
+	background: #fff;
+	width: 90%;
+	margin: 0 auto -1px;
+	border-radius: 10px 10px 0 0;
+}
+.jinsom-publish-type-form .close a {
+	height: auto;
+	line-height: initial;
+	color: #fff;
+	width: 0;
+	border-width: 20px 20px 0;
+	border-style: solid;
+	border-color: #fff transparent transparent;
+}
+.jinsom-publish-type-form .close {
+	position: initial;
+	margin-top: -1px;
+}
+.jinsom-publish-type-form .close a i {
+	display: none;
+}
+.jinsom-publish-type-form .bottom li {
+	width: 33.3%;
+}
+.jinsom-publish-type-form .page-content {
+	background: none;
+}
+.popup.jinsom-publish-type-form.modal-in .page-content {
+	padding: 0;
+}
+.popup.jinsom-publish-type-form.modal-in {
+	bottom: 60px;
+}
+.jinsom-bbs-publish-icon {
+	bottom: 3vw;
+}
+.jinsom-publish-type-form .bottom li span {
+	padding: 1.5vw;
+}
+.jinsom-publish-type-form .bottom li span {
+    border-radius: 10vw;
+}
