@@ -145,3 +145,17 @@ body {
     line-height: 23px;
     width: 48px;
 }
+
+/*弹窗登录按钮*/
+.jinsom-login-btn span.login {
+    background-color: #88ada6;
+    border: #88ada6 1px solid;
+    color: #ffffff;
+}
+
+/*弹窗注册按钮*/
+.jinsom-login-btn span {
+    background: #ffffff;
+    border: #88ada6 1px solid;
+    color: #88ada6;
+}
