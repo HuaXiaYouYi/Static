@@ -123,3 +123,41 @@
 .jinsom-post-read-more {
     color: #88ada6;
 }
+
+/*论坛排版*/
+.jinsom-find-box.bbs .content li {
+	width: calc(50% - 22px);
+	text-align: left;
+	border: 1px #eee solid;
+	padding: 10px 10px;
+	margin: 0;
+	border-top: unset;
+}
+.jinsom-find-box.bbs .content li .img {
+	width: 15vw;
+	border-radius: 1vw;
+	float: left;
+}
+.jinsom-find-box.bbs .content li .img img {
+	border-radius: 1.5vw;
+}
+.jinsom-find-box.bbs .content li .name {
+	width: calc(100% - 15vw);
+	margin: 0;
+	float: left;
+	line-height: 13vw;
+}
+.jinsom-find-box.bbs .content li:nth-child(even) {
+	border-right: unset;
+	border-left: unset;
+}
+.jinsom-find-box.bbs .content li:nth-child(odd) {
+	border-left: unset;
+}
+.jinsom-find-box.bbs .content li .img no-img,
+.jinsom-bbs-child-show li .img no-img {
+	text-align: center;
+}
+.jinsom-find-box.bbs .content li .name {
+    font-size: 3.8vw;
+}
