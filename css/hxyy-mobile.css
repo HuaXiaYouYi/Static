@@ -177,3 +177,13 @@
 .jinsom-find-box.topic .content li m {
     line-height: 8.4vw;
 }
+
+/*论坛字体列表*/
+.jinsom-bbs-list-default h2 {
+    font-size: 4vw;
+}
+
+/*文章标题*/
+.jinsom-single h1 {
+    font-size: 5vw;
+}
