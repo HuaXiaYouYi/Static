@@ -145,7 +145,7 @@
 	width: calc(100% - 13vw);
 	margin: 0;
 	float: left;
-	line-height: 10.5vw;
+	line-height: 11.5vw;
 }
 .jinsom-find-box.bbs .content li:nth-child(even) {
 	border-right: unset;
@@ -162,11 +162,11 @@
     font-size: 3.8vw;
 }
 .jinsom-find-box.bbs .content li .img img {
-    width: 10vw;
-    height: 10vw;
+    width: 11vw;
+    height: 11vw;
 }
 .jinsom-find-box.bbs .content li .img {
-    height: 10vw;
+    height: 11vw;
 }
 
 /*发现页话题推荐*/
@@ -186,4 +186,16 @@
 /*文章标题*/
 .jinsom-single h1 {
     font-size: 5vw;
+}
+
+/*圆形菜单大小*/
+.jinsom-find-header li img {
+    width: 10vw;
+    height: 10vw;
+}
+
+/*论坛头像*/
+.jinsom-bbs-list-default a .avatarimg img {
+    width: 11vw;
+    height: 11vw;
 }
