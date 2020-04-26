@@ -187,6 +187,9 @@
 .jinsom-single h1 {
     font-size: 5vw;
 }
+.jinsom-single h1 .type {
+    font-size: 3.5vw;
+}
 
 /*圆形菜单大小*/
 .jinsom-find-header li img {
