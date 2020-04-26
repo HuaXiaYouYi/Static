@@ -126,10 +126,10 @@
 
 /*论坛排版*/
 .jinsom-find-box.bbs .content li {
-	width: calc(50% - 4.6vw);
+	width: calc(50% - 5.3vw);
 	text-align: left;
 	border: 1px #eee solid;
-	padding: 1.8vw 2.2vw;
+	padding: 2vw 2.5vw;
 	margin: 0;
 	border-top: unset;
 }
